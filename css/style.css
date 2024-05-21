@@ -75,7 +75,7 @@ main {
 .item {
   transform: scale(1);
   position: relative;
-  width: 30rem;
+  width: 33rem;
   height: 9rem;
   box-sizing: border-box;
   background: #fff;
