@@ -116,21 +116,33 @@ main {
   top: -1.7rem;
 }
 .item:nth-child(2) {
+  padding: 1.5rem 1rem 1.5em 2rem;
+  gap: 0.8rem;
+  overflow: hidden;
+}
+.item:nth-child(2) .blog {
+  width: 8rem;
+  padding-right: 1rem;
+}
+.item:nth-child(2) h2 {
+  margin-top: 0.9rem;
+}
+.item:nth-child(3) {
   padding: 2.5rem 1.2rem 2rem 2.1rem;
   gap: 2rem;
 }
-.item:nth-child(2) .floating {
+.item:nth-child(3) .floating {
   width: 15rem;
   position: absolute;
   right: -0.2rem;
   top: 0.5rem;
 }
-.item:nth-child(3) {
+.item:nth-child(4) {
   padding: 0.5rem 1rem 1rem 1rem;
   gap: 0.8rem;
   overflow: hidden;
 }
-.item:nth-child(3) .bg {
+.item:nth-child(4) .bg {
   position: absolute;
   background-image: url(../img/w.png);
   background-repeat: no-repeat;
@@ -139,38 +151,38 @@ main {
   top: 0.9rem;
   z-index: -1;
 }
-.item:nth-child(3) .laptop2 {
+.item:nth-child(4) .laptop2 {
   width: 13.2rem;
 }
-.item:nth-child(3) h2 {
+.item:nth-child(4) h2 {
   margin-top: 0.9rem;
 }
-.item:nth-child(4) {
+.item:nth-child(5) {
   padding: 2.5rem 1rem 1rem 2.2rem;
   gap: 0.8rem;
 }
-.item:nth-child(4) .floating {
+.item:nth-child(5) .floating {
   width: 10.8rem;
   position: absolute;
   right: 0.8rem;
   top: 1.2rem;
 }
-.item:nth-child(5) {
+.item:nth-child(6) {
   padding: 1rem 1.2rem 2rem 1.7rem;
   gap: 2rem;
 }
-.item:nth-child(5) .bg {
+.item:nth-child(6) .bg {
   position: absolute;
   width: 60px;
   left: 1.4rem;
   top: 1.7rem;
   z-index: -1;
 }
-.item:nth-child(5) .guy {
+.item:nth-child(6) .guy {
   height: 10rem;
   margin-top: -2rem;
 }
-.item:nth-child(5) .floating {
+.item:nth-child(6) .floating {
   width: 7.8rem;
   position: absolute;
   right: -0.7rem;
