@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <script>
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = './css/style.css?v=' + new Date().getTime(); // Adiciona um timestamp
+      document.head.appendChild(link);
+    </script>
+    
     <title>Links Waboo</title>
   </head>
   <body>
@@ -100,6 +107,6 @@
         </a>
       </div>
     </main>
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
   </body>
 </html>
